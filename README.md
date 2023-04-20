@@ -11,7 +11,7 @@
 
 ## Creating Java Package and Boa Class
 
-A package _Lab08_ is created to house the _Boa_ class implementation. The **.java** code for the same is as follows:
+A package Lab08 is created to house the Boa class implementation. The **.java** code for the same is as follows:
 
 ```java
 package Lab08;
@@ -41,9 +41,9 @@ public class Boa {
 
 ## Creating a JUnit Test Class in Eclipse
 
-We can create a JUnit test case for any **.java** file by right-clicking on the file, selecting _new_ and then clicking on _JUnit Test Case_. We create a test case file **BoaTest.java** for **Boa.java** file.
+We can create a JUnit test case for any **.java** file by right-clicking on the file, selecting new and then clicking on JUnit Test Case. We create a test case file **BoaTest.java** for **Boa.java** file.
 
-After configuring the test case file, we define the _setUp()_ function as follows
+After configuring the test case file, we define the setUp() function as follows
 
 ```java
 package Lab08;
@@ -78,14 +78,14 @@ class BoaTest {
 }
 ```
 
-> Note that the methods _testIsHealthy()_ and _testFitsInCage()_ will contain code to test the _Boa_ class methods. These functions along with _tearDown()_ are yet to be implemented.
+> Note that the methods testIsHealthy() and testFitsInCage() will contain code to test the Boa class methods. These functions along with tearDown() are yet to be implemented.
 
 ## Testing _Boa_ class methods
 
-### _isHealthy()_ method
+### isHealthy() method
 
-It is important to note that the _isHealthy()_ function does not take any parameters. Due to this, the only test cases possible are to call the method on _Boa_ objects _"jen"_ and _"ken"_.  
-Thus, the test cases defined in the _testIsHealthy()_ test function is as follows:
+It is important to note that the isHealthy() function does not take any parameters. Due to this, the only test cases possible are to call the method on Boa objects _"jen"_ and _"ken"_.  
+Thus, the test cases defined in the testIsHealthy() test function is as follows:
 
 ```java
 final void testIsHealthy() {
