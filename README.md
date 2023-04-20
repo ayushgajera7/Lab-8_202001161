@@ -9,9 +9,10 @@
 
 ---
 
-## Creating Java Package and Boa Class
 
-A package Lab08 is created to house the Boa class implementation. The **.java** code for the same is as follows:
+
+#### First i Created a new Eclipse project, and within the project i created a package.
+#### Then i Created a class for a Boa. Here’s the code.
 
 ```java
 package Lab08;
@@ -39,11 +40,7 @@ public class Boa {
 }
 ```
 
-## Creating a JUnit Test Class in Eclipse
-
-We can create a JUnit test case for any **.java** file by right-clicking on the file, selecting new and then clicking on JUnit Test Case. We create a test case file **BoaTest.java** for **Boa.java** file.
-
-After configuring the test case file, we define the setUp() function as follows
+#### Then I created a JUnit test file for the Boa Class with name BoaTest
 
 ```java
 package Lab08;
