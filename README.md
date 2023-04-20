@@ -11,7 +11,7 @@
 
 ## Creating Java Package and Boa Class
 
-A package _Lab08_ is created to house the _Boa_ class implementation. The **.java** cod for the same is as follows:
+A package _Lab08_ is created to house the _Boa_ class implementation. The **.java** code for the same is as follows:
 
 ```java
 package Lab08;
